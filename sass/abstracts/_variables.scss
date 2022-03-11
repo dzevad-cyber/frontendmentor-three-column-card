@@ -1,16 +1,24 @@
 :root {
   // colors
-  --clr-card-start: hsl(31, 77%, 52%);
-  --clr-card-center: hsl(184, 100%, 22%);
-  --clr-card-end: hsl(179, 100%, 13%);
+  --bg-card-start: hsl(31, 77%, 52%);
+  --bg-card-center: hsl(184, 100%, 22%);
+  --bg-card-end: hsl(179, 100%, 13%);
+
+  --clr-white: #fff;
 
   // font
   --fz-base: 1.5rem;
+  --fz-title: 4rem;
 
+  --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
 
   // other
   --w-mobile: 37.5rem;
   --w-desktop: 144rem;
+
+  // font family
+  --ff-big-shoulder-display: 'Big Shoulders Display', cursive;
+  --ff-lexend-deca: 'Lexend Deca', sans-serif;
 }

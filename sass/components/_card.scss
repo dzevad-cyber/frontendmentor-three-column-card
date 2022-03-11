@@ -1,13 +1,32 @@
-.cards-card {
+.card {
   max-width: var(--w-mobile);
+  padding: 6rem 5rem;
+
+  display: grid;
+  grid-template-rows: repeat(3, min-content) 1fr;
+  row-gap: 2rem;
 
   &--start {
-    background-color: var(--clr-card-start);
+    background-color: var(--bg-card-start);
   }
   &--center {
-    background-color: var(--clr-card-center);
+    background-color: var(--bg-card-center);
   }
   &--end {
-    background-color: var(--clr-card-end);
+    background-color: var(--bg-card-end);
+  }
+
+  &__btn--start {
+    color: var(--bg-card-start);
+  }
+  &__btn--center {
+    color: var(--bg-card-center);
+  }
+  &__btn--end {
+    color: var(--bg-card-end);
+  }
+
+  @media (min-width: 62.5em) {
+    min-height: 65vh;
   }
 }

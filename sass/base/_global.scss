@@ -1,0 +1,22 @@
+.card__title {
+  font-family: var(--ff-big-shoulder-display);
+  font-size: var(--fz-title);
+  text-transform: uppercase;
+}
+
+.card__text,
+card__btn {
+  font-family: var(--ff-lexend-deca);
+}
+
+.card__title,
+.card__text {
+  color: var(--clr-white);
+}
+
+.card__text {
+  font-size: var(--fz-base);
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: var(--fw-light);
+}

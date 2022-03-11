@@ -1,3 +1,9 @@
-.cards-card {
-  max-width: var(--w-mobile);
+.cards {
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+
+  @media (min-width: 62.5em) {
+    grid-auto-flow: column;
+  }
 }
