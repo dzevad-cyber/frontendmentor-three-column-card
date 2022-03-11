@@ -7,7 +7,7 @@
     "sass": "sass ./sass/main.scss ./style.css -w",
     "serve": "lite-server",
     "dev": "npm run sass & lite-server",
-    "prod": "sass ./sass/main.scss ./style.css"
+    "prod": "sass --style=compressed --no-source-map ./sass/main.scss ./style.css & rm -rf style.css.map"
   },
   "repository": {
     "type": "git",
