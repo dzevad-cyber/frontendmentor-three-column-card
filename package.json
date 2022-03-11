@@ -1,0 +1,27 @@
+{
+  "name": "3-column-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass/main.scss ./style.css -w",
+    "serve": "lite-server",
+    "dev": "npm run sass & lite-server",
+    "prod": "sass ./sass/main.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lulzz/frontendmentor-three-column-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lulzz/frontendmentor-three-column-card/issues"
+  },
+  "homepage": "https://github.com/lulzz/frontendmentor-three-column-card#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.49.9"
+  }
+}

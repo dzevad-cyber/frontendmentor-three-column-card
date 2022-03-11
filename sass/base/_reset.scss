@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: var(--fz-base);
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

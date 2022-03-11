@@ -1,0 +1,13 @@
+.cards-card {
+  max-width: var(--w-mobile);
+
+  &--start {
+    background-color: var(--clr-card-start);
+  }
+  &--center {
+    background-color: var(--clr-card-center);
+  }
+  &--end {
+    background-color: var(--clr-card-end);
+  }
+}
